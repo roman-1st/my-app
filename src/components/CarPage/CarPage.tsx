@@ -8,15 +8,10 @@ import {useSelector} from "react-redux";
 import {stat} from "react-native-fs";
 import {getTranslatedText} from "../../utils/func_changeLang";
 
-type Props = {
-
-};
 const CarPage = ( { route }: any) => {
     const { uId, driverCar } = route.params;
     const { base, language}= useSelector( (state: any) => state.cars)
     const car = base.find( (el : any)  => el.id == uId)
-    // const driver = drivers[uId - 1]
-    console.log(driverCar)
 
     const phoneNumber =  79818378300;
     const message = `Добрый день, ${driverCar}, подскажите пожалуйста, какой номер заказа у вас сейчас в работе`;

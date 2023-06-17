@@ -13,7 +13,6 @@ const SettingsScreen = () => {
             ? dispatch(setLanguage("en"))
             : dispatch(setLanguage('ru'))
     };
-    console.log(language)
 
     return (
         <View style={styles.container}>

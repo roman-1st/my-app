@@ -2,19 +2,13 @@
 import * as React from 'react';
 import { View, ActivityIndicator, StyleSheet } from 'react-native';
 
-type Props = {
-    
-};
-const IsLoading = (props: Props) => {
-    console.log('asd')
+const IsLoading = () => {
     return (
         <View style={[styles.container, styles.horizontal]}>
             <ActivityIndicator size="large" />
         </View>
     );
 };
-
-export default IsLoading
 
 const styles = StyleSheet.create({
     container: {
@@ -29,3 +23,6 @@ const styles = StyleSheet.create({
         padding: 10,
     },
 });
+
+export default IsLoading
+
