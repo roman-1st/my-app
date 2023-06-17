@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "carName": "JAC N350",
+    "driverName": "",
+    "type": "Грузовой"
+  },
+  {
+    "id": 2,
+    "carName": "МАЗ 203",
+    "driverName": "Антон",
+    "type": "Пассажирский"
+  },
+  {
+    "id": 3,
+    "carName": "Sany SY245H",
+    "driverName": "Дмитрий",
+    "type": "Спецтехника"
+  },
+  {
+    "id": 4,
+    "carName": "BUS",
+    "driverName": "Роман",
+    "type": "Пассажирский"
+  },
+  {
+    "id": 5,
+    "carName": "Case CX210C",
+    "driverName": "Стас",
+    "type": "Спецтехника"
+  },
+  {
+    "id": 6,
+    "carName": "Laingong CPCD 30",
+    "driverName": "Гена",
+    "type": "Грузовой"
+  },
+  {
+    "id": 7,
+    "carName": "МАЗ 257",
+    "driverName": "Игорь",
+    "type": "Пассажирский"
+  },
+  {
+    "id": 8,
+    "carName": "МАЗ 303",
+    "driverName": "Олег",
+    "type": "Пассажирский"
+  },
+  {
+    "id": 9,
+    "carName": "Howo ZZ",
+    "driverName": "Матвей",
+    "type": "Грузовой"
+  },
+  {
+    "id": 10,
+    "carName": "FAV J6",
+    "driverName": "Иван",
+    "type": "Грузовой"
+  }
+]

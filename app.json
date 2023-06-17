@@ -12,16 +12,26 @@
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
-      "**/*"
+      "assets/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ios.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyA1ao0oYB1zFh3iYiRHV3ef3ancOFRbqiw"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "package": "android.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
